@@ -1,0 +1,80 @@
+.carouselContainer {
+  padding: 0;
+  margin: 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px; Change the height as needed */
+}
+
+.carouselImage {
+  /* max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; */
+}
+.titleIcon img{
+  /* border: 1px solid green;
+  background-color: pink; */
+  width: 250px;
+  height: 104px;
+  margin-Left:113px;
+  margin-top: 100px;
+}
+.backgroundImage img{
+  display: inline;
+  justify-content: flex-start;
+  margin-top: 0px;
+  border-radius: 10%;
+  
+
+ 
+  margin-left: 8px;
+}
+.backgroundImage{
+  margin-left: 113px;
+  display: flex;
+  flex-direction: row; 
+}
+.franchise{
+  width:"25vw";
+  display:"flex";
+  justify-content:"space-between";
+  margin-bottom: 20px;
+  margin-left: 113px;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: larger;
+}
+.franchise a{
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.franchise a:hover{
+  color: rgb(84, 199, 35);
+  border-bottom: 1px solid white;
+}
+
+
+.active-image {
+  
+  width: 144px;
+  height: 144px; 
+  border: 4px solid purple;
+}
+
+.inactive-image {
+  
+  width: 65px;
+  height: 65px; 
+margin-bottom: 35px;
+}
+
+.button:hover {
+  transform: translate(-3px, -3px); 
+  border-bottom: 3px solid purple;
+  border-right: 3px solid purple;
+  box-sizing: initial;
+
+}
